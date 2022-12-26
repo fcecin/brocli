@@ -7,6 +7,15 @@ The application was built with the ExpressJS framework.
 
 Deploying this into an actual webhost or cloud service is left as an exercise to the reader. There may be a deployment of Brocli running on https://brocli.nearlyfreespeech.net/.
 
+## Getting the dependencies
+
+The commands below, run on your project directory (where you download this), should generate a `node_modules` subdirectory that would contain the ExpressJS and EOSJS dependencies (Javascript is not my forté, so your mileage may vary):
+
+```
+npm install express --save
+npm add eosjs
+```
+
 ## How it works
 
 Once the NodeJS application is started, it will open a Node web server on port 57057 and start answering the following route requests:
