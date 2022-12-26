@@ -19,6 +19,18 @@ Once the NodeJS application is started, it will open a Node web server on port 5
 
 `/d/accountname/nodeid` -> Displays debug information on the given scope, node and page, if any are found.
 
+## Data storage
+
+All data retrieved by Brocli from the blockchain will be stored in a subdirectory called `nodes` that will be created by the application if and when it is needed (usually when the first node is accessed and downloaded). That subdirectory also stores any HTML pages successfully brotli-uncompressed from node data. Under `nodes`, a further subdirectory is created for each user scope that is known and requested, and each such subdirectory will contain files in the format `nodeid.bin` and `nodeid.html`, where `nodeid` is the ID number of the respective GPPS data node.
+
+Currently, Brocli does not know how to check for updated nodes. All retrieved nodes are assumed to be immutable.
+
+## Concurrency and error handling
+
+Concurrency controls and error handling in Brocli are very poor in general. It may e.g. bungle data nodes or page data, or fail in a number of other ways.
+
+This is a demo. Contributions welcome.
+
 ## Future work
 
 This is a very simple example to showcase the storage of very small HTML files in compressed form using the GPPS contract. In the future, Brocli should actually know how to handle entire websites with multiple files. These would be obtained from a range of nodes, which are the split form of a compressed file that contains an entire website.
