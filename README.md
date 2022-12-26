@@ -11,13 +11,13 @@ Deploying this into an actual webhost or cloud service is left as an exercise to
 
 Once the NodeJS application is started, it will open a Node web server on port 57057 and start answering the following route requests:
 
-/ -> serves the index.html file in the root app dir.
+`/` -> serves the `index.html` file in the root app dir.
 
-/n/accountname/nodeid -> Attempts to retrieve and/or download the GPPS node for scope 'accountname' and node id (number) 'nodeid'. Example: /n/datastoreutx/1
+`/n/accountname/nodeid` -> Attempts to retrieve and/or download the GPPS node for scope `accountname` and node id (number) `nodeid`. Example: `/n/datastoreutx/1`
 
-/p/accountname/nodeid -> Attempts to retrieve the GPPS node for for scope 'accountname' and node id (number) 'nodeid'. If the node is already downloaded, attempts to unpack it using brotli; if successful, the uncompressed content of the node will be interpreted as an HTML file. If the HTML file is already produced, this will serve it to the client. Example: /p/datastoreutx/1
+`/p/accountname/nodeid` -> Attempts to retrieve the GPPS node for for scope `accountname` and node id (number) `nodeid`. If the node is already downloaded, attempts to unpack it using brotli; if successful, the uncompressed content of the node will be interpreted as an HTML file. If the HTML file is already produced, this will serve it to the client. Example: `/p/datastoreutx/1`
 
-/d/accountname/nodeid -> Displays debug information on the given scope, node and page, if any are found.
+`/d/accountname/nodeid` -> Displays debug information on the given scope, node and page, if any are found.
 
 ## Future work
 
