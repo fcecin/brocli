@@ -5,7 +5,7 @@ This is a simple example that is hard-coded to use 0rigin's UX Network API serve
 
 The application was built with the ExpressJS framework.
 
-Deploying this into an actual webhost or cloud service is left as an exercise to the reader. There may be a deployment of Brocli running on https://brocli.nearlyfreespeech.net/.
+Deploying this into an actual webhost or cloud service is left as an exercise to the reader. There may be a deployment of Brocli running on https://brocli.nfshost.com/.
 
 ## Getting the dependencies
 
