@@ -12,8 +12,7 @@ Deploying this into an actual webhost or cloud service is left as an exercise to
 The commands below, run on your project directory (where you download this), should generate a `node_modules` subdirectory that would contain the ExpressJS and EOSJS dependencies (Javascript is not my forté, so your mileage may vary):
 
 ```
-npm install express --save
-npm add eosjs
+npm install
 ```
 
 ## How it works
