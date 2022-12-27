@@ -1,7 +1,12 @@
 // Blockchain
 const { Api, JsonRpc, RpcError } = require('eosjs');
-const fetch = require('node-fetch');
 const { TextEncoder, TextDecoder } = require('util');
+
+// Use one of these; one of them should work
+//const fetch = require('node-fetch');
+//import fetch from "node-fetch";
+const fetch = (...args) =>
+  import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 // Express
 var express = require('express');
