@@ -15,6 +15,14 @@ The commands below, run on your project directory (where you download this), sho
 npm install
 ```
 
+## Running
+
+```
+node app.js
+```
+
+Here's a guide on how to deploy it on https://nearlyfreespeech.net: https://gist.github.com/aconanlai/42492364aa036a02d10aec0a22415ec6
+
 ## How it works
 
 Once the NodeJS application is started, it will open a Node web server on port 57057 and start answering the following route requests:
