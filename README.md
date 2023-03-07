@@ -1,3 +1,5 @@
+**NOTE: This is deprecated. Use [PermaServe](https://github.com/fcecin/pserve) instead.**
+
 # brocli
 Brocli is a sample NodeJS application built on top of GPPS (https://github.com/fcecin/gpps) that retrieves small brotli-compressed HTML files from an Antelope blockchain's RAM.
 
