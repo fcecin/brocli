@@ -1,5 +1,7 @@
 **NOTE: This is deprecated. Use [PermaServe](https://github.com/fcecin/pserve) instead.**
 
+**This application server is no longer hosted anywhere**
+
 # brocli
 Brocli is a sample NodeJS application built on top of GPPS (https://github.com/fcecin/gpps) that retrieves small brotli-compressed HTML files from an Antelope blockchain's RAM.
 
@@ -7,7 +9,7 @@ This is a simple example that is hard-coded to use 0rigin's UX Network API serve
 
 The application was built with the ExpressJS framework.
 
-Deploying this into an actual webhost or cloud service is left as an exercise to the reader. There may be a deployment of Brocli running on https://brocli.nfshost.com/.
+Deploying this into an actual webhost or cloud service is left as an exercise to the reader.
 
 ## Getting the dependencies
 
