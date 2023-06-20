@@ -1,4 +1,4 @@
-**NOTE: This is deprecated. Use [PermaServe](https://github.com/fcecin/pserve) instead.**
+**NOTE: This is deprecated. Use [PermaServe](https://github.com/FluxBP/pserve) instead.**
 
 **This application server is no longer hosted anywhere**
 
